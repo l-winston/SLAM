@@ -22,18 +22,18 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Time.frameCount % 60 == 0)
+        {
+            CastRays();
+        }
     }
 
     private void FixedUpdate()
     {
-        ProcessUserInput();
-
-        CastRays();
-
+        Move();
     }
 
-    void ProcessUserInput()
+    void Move()
     {
         float ang_radians = Mathf.Deg2Rad * rigidbody.transform.eulerAngles.z;
         Vector3 pos = transform.position;
@@ -84,7 +84,7 @@ public class Controller : MonoBehaviour
             {
                 Debug.DrawLine(sensor_position, hit.point);
                 raycast_distances[i] = hit.distance;
-                Debug.Log("Human = " + string.Join(" ", new List<float>(raycast_distances).ConvertAll(x => Math.Round(x, 2).ToString())));
+                // Debug.Log("Human = " + string.Join(" ", new List<float>(raycast_distances).ConvertAll(x => Math.Round(x, 2).ToString())));
             }
         }
 
