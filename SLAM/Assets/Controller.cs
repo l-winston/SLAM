@@ -18,6 +18,11 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+    }
+
+    private void FixedUpdate()
+    {
         float ang = rigidbody.transform.eulerAngles.z;
         Vector3 pos = transform.position;
 
