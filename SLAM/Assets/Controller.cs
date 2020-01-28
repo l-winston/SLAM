@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -83,6 +84,7 @@ public class Controller : MonoBehaviour
             {
                 Debug.DrawLine(sensor_position, hit.point);
                 raycast_distances[i] = hit.distance;
+                Debug.Log("Human = " + string.Join(" ", new List<float>(raycast_distances).ConvertAll(x => Math.Round(x, 2).ToString())));
             }
         }
 
