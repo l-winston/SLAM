@@ -6,12 +6,12 @@ public class Controller : MonoBehaviour
 {
     public float speed = 0.1f;
 
-    Rigidbody2D rb2d;
+    Rigidbody2D rigidbody;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+        rigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class Controller : MonoBehaviour
             new_pos += speed * Vector3.right;
         }
 
-        rb2d.MovePosition(new_pos);
+        rigidbody.MovePosition(new_pos);
 
     }
 }
