@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-    public float lin_speed = 0.1f;
+    public float lin_speed = 0.3f;
     public float ang_speed = 1;
 
     Rigidbody2D rigidbody;
