@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-    public float speed = 0.1f;
+    public float lin_speed = 0.1f;
+    public float ang_speed = 1;
 
     Rigidbody2D rigidbody;
 
@@ -17,26 +18,31 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 new_pos = transform.position;
+        float ang = rigidbody.transform.eulerAngles.z;
+        Vector3 pos = transform.position;
 
         if (Input.GetKey(KeyCode.W))
         {
-            new_pos += speed * Vector3.up;
+            pos += lin_speed * new Vector3(Mathf.Cos(Mathf.Deg2Rad * ang), Mathf.Sin(Mathf.Deg2Rad * ang), 0);
         }
-        if (Input.GetKey(KeyCode.A))
-        {
-            new_pos += speed * Vector3.left;
-        }
+
         if (Input.GetKey(KeyCode.S))
         {
-            new_pos += speed * Vector3.down;
+            pos += -lin_speed * new Vector3(Mathf.Cos(Mathf.Deg2Rad * ang), Mathf.Sin(Mathf.Deg2Rad * ang), 0);
         }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            ang += ang_speed;
+        }
+
         if (Input.GetKey(KeyCode.D))
         {
-            new_pos += speed * Vector3.right;
+            ang += -ang_speed;
         }
 
-        rigidbody.MovePosition(new_pos);
+        rigidbody.MovePosition(pos);
 
+        rigidbody.MoveRotation(ang);
     }
 }
