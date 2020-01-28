@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Controller.cs" />
+    <Compile Include="Assets\Data.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/l-winston/SLAM/SLAM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

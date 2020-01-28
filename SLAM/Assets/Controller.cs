@@ -9,7 +9,9 @@ public class Controller : MonoBehaviour
 
     private float lin_speed = 0.1f;
     private float ang_speed = 0.05f;
-    private float offset = 0.333f;
+    private float sensor_offset = 0.333f;
+
+    List<Data> datas = new List<Data>();
 
     Rigidbody2D rigidbody;
 
@@ -68,25 +70,24 @@ public class Controller : MonoBehaviour
     void CastRays()
     {
         // Check for current angle
-        float current_ang_radians = Mathf.Deg2Rad * transform.eulerAngles.z;
         Vector3 direction = transform.right;
 
         // Find sensor location
-        Vector3 sensor_position = transform.position + offset * direction;
+        Vector3 sensor_position = transform.position + sensor_offset * direction;
 
-        // Create array to store sensor readings
-        float[] raycast_distances = new float[raycast_angle_degrees.Length];
+        Data data = Data.ScanPoints(sensor_position, direction, raycast_angle_degrees);
+        datas.Add(data);
 
-        for (int i = 0; i < raycast_angle_degrees.Length; i++)
+    }
+
+    private void OnDrawGizmos()
+    {
+        foreach (Data data in datas)
         {
-            RaycastHit2D hit = Physics2D.Raycast(sensor_position, Quaternion.AngleAxis(raycast_angle_degrees[i], Vector3.back) * direction);
-            if (hit.collider != null)
+            for (int i = 0; i < data.points.Length; i++)
             {
-                Debug.DrawLine(sensor_position, hit.point);
-                raycast_distances[i] = hit.distance;
-                // Debug.Log("Human = " + string.Join(" ", new List<float>(raycast_distances).ConvertAll(x => Math.Round(x, 2).ToString())));
+                Gizmos.DrawSphere(data.points[i], 0.1f);
             }
         }
-
     }
 }
