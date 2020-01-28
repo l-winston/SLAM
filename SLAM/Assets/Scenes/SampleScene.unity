@@ -226,8 +226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76678dc64560e492ba6a51da75102459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lin_speed: 0.1
-  ang_speed: 3
 --- !u!212 &914300104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -315,9 +313,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.1512728, y: 0.0064110756}
-      - {x: -2.2155218, y: 2.5509977}
-      - {x: -2.191359, y: -2.548095}
+    - - {x: 2.215797, y: -0.004811287}
+      - {x: -2.2133808, y: 2.5676084}
+      - {x: -2.2123876, y: -2.5666833}
 --- !u!50 &914300107
 Rigidbody2D:
   serializedVersion: 4
