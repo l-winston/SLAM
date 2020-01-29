@@ -24,7 +24,7 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.frameCount % 60 == 0)
+        if (Time.frameCount % 20 == 0)
         {
             CastRays();
         }
