@@ -17,8 +17,7 @@ Then, in the measurement step, we correct our prediction by using data from our 
 ## Kalman Filters
 
 Estimation Algorithm
-![Estimation Algorithm Picture](images/EstimationAlgorithm.png)
-
+![Estimation Algorithm Picture](https://github.com/l-winston/SLAM/images/EstimationAlgorithim.png)
 
 
 
