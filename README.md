@@ -1,7 +1,7 @@
 # SLAM
 SLAM (Simultaneous Localization And Mapping) is the process of creating a map of an environment while tracking the agent's location within it.
 
->SLAM is a framework for temporal modeling of states that is commonly used in autonomous navigation. It is heavily based on principles of probability, making inferences on posterior and prior probability distributions of states and measurements and the relationship between the two.
+>SLAM is a framework for temporal modeling of states that is commonly used in autonomous navigation. It is heavily based on principles of probability, making inferences on posterior and prior probability distributions of states and measurements and the relationship between the two. [1]
 
 ## Step 1: Prediction
 We estimate our current position with a motion model by using previous positions, the current control input, and noise.
