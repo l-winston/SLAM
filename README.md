@@ -22,8 +22,8 @@ Estimation Algorithm
 
 
 
-# Sources
+# Sources & Resources
 1. [How does Autonomous Driving Work? An Intro into SLAM](https://towardsdatascience.com/slam-intro-fd833ef29e4e)
 2. [Simultaneous Localization and Mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping)
-3. [Wikipedia: Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
+3. [MatLab: Understanding Kalman Filters](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
 4. https://www.kalmanfilter.net/default.aspx
