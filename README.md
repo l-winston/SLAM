@@ -16,6 +16,8 @@ Then, in the measurement step, we correct our prediction by using data from our 
 
 ## Kalman Filters
 
+Kalman Filters are a way to estimate the unknown actual state of an system (our agent's position and orientation) through the collection of noisy data.
+
 Estimation Algorithm
 ![Estimation Algorithm Picture](https://www.kalmanfilter.net/img/AlphaBeta/ex2_estimationAlgorithm.png "Estimation Algorithm Picture")
 
