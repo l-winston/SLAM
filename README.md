@@ -16,21 +16,21 @@ Then, in the measurement step, we correct our prediction by using data from our 
 
 ## Kalman Filters
 
-Kalman Filters are a way to estimate the unknown actual state of an system (our agent's position and orientation) through the collection of noisy data.
+Kalman Filters are a way for us to estimate the (unknown) actual state of an system (our agent's position and orientation) through the collection of noisy data.
 
 We can give more weight to data that we know is more accurate by increasing the Kalman Gain associated with that measurement.
 
 We take the state of a system and use a set of equations (ex. laws of physics) to extrapolate a predicted future state.
 
 <p align="center">
-<img src="/images/StateUpdateEquation.png">
+<img alt="State Update Equation" src="/images/StateUpdateEquation.png">
 </p>
 
 Next, we take a measurement, tweak our estimation of the state, and then once again predict the future state.
 
-Estimation Algorithm
-![Estimation Algorithm Picture](https://www.kalmanfilter.net/img/AlphaBeta/ex2_estimationAlgorithm.png "Estimation Algorithm Picture")
-
+<p align="center">
+<img alt="Estimation Algorithm Flowchart" src="https://www.kalmanfilter.net/img/AlphaBeta/ex2_estimationAlgorithm.png">
+</p>
 
 # Sources & Resources
 1. [How does Autonomous Driving Work? An Intro into SLAM](https://towardsdatascience.com/slam-intro-fd833ef29e4e)
