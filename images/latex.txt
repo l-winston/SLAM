@@ -1,0 +1,4 @@
+StateUpdateEquation
+\hat{x}_{n, n} = \hat{x}_{n, n-1} + K_n (z_n - \hat{x}_{n, n-1})
+
+ 
