@@ -20,6 +20,10 @@ Kalman Filters are a way to estimate the unknown actual state of an system (our 
 
 We give more weight to data that we know is more accurate by increasing the Kalman Gain associated with that measurement.
 
+We take the state of a system and use given information (ex. laws of physics) to extrapolate a predicted future state.
+
+Next, we take a measurement, tweak our estimation of the state, and then once again predict the future state.
+
 Estimation Algorithm
 ![Estimation Algorithm Picture](https://www.kalmanfilter.net/img/AlphaBeta/ex2_estimationAlgorithm.png "Estimation Algorithm Picture")
 
