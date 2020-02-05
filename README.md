@@ -24,8 +24,6 @@ Estimation Algorithm
 ![Estimation Algorithm Picture](https://www.kalmanfilter.net/img/AlphaBeta/ex2_estimationAlgorithm.png "Estimation Algorithm Picture")
 
 
-
-
 # Sources & Resources
 1. [How does Autonomous Driving Work? An Intro into SLAM](https://towardsdatascience.com/slam-intro-fd833ef29e4e)
 2. [Simultaneous Localization and Mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping)
