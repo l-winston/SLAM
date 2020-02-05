@@ -11,6 +11,8 @@ public class Controller : MonoBehaviour
     private float ang_speed = 0.05f;
     private float sensor_offset = 0.333f;
 
+    private Vector2 lastVelocity = new Vector3(0, 0, 0);
+
     List<Data> datas = new List<Data>();
 
     Rigidbody2D rigidbody;
@@ -33,8 +35,16 @@ public class Controller : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
+        CalculateAcceleration();
     }
 
+    private Vector2 CalculateAcceleration()
+    {
+        Vector2 acceleration = (rigidbody.velocity - lastVelocity) / Time.fixedDeltaTime;
+        lastVelocity = rigidbody.velocity;
+        return acceleration;
+
+    }
     void Move()
     {
         float ang_radians = Mathf.Deg2Rad * rigidbody.transform.eulerAngles.z;

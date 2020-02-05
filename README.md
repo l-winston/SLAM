@@ -18,9 +18,9 @@ Then, in the measurement step, we correct our prediction by using data from our 
 
 Kalman Filters are a way to estimate the unknown actual state of an system (our agent's position and orientation) through the collection of noisy data.
 
-We give more weight to data that we know is more accurate by increasing the Kalman Gain associated with that measurement.
+We can give more weight to data that we know is more accurate by increasing the Kalman Gain associated with that measurement.
 
-We take the state of a system and use given information (ex. laws of physics) to extrapolate a predicted future state.
+We take the state of a system and use a set of equations (ex. laws of physics) to extrapolate a predicted future state.
 
 Next, we take a measurement, tweak our estimation of the state, and then once again predict the future state.
 
