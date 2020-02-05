@@ -23,7 +23,7 @@ We can give more weight to data that we know is more accurate by increasing the 
 We take the state of a system and use a set of equations (ex. laws of physics) to extrapolate a predicted future state.
 
 <p align="center">
-<img alt="State Update Equation" src="/images/StateUpdateEquation.png">
+<img style="width:50%" alt="State Update Equation" src="/images/StateUpdateEquation.png">
 </p>
 
 Next, we take a measurement, tweak our estimation of the state, and then once again predict the future state.
