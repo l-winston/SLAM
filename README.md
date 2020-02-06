@@ -26,6 +26,23 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 <img style="width:50%" alt="State Update Equation" src="/images/StateUpdateEquation.png">
 </p>
 
+<p align="center">
+<img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation2.png">
+<img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation2.png">
+</p>
+
+<p align="center">
+<img style="width:50%" alt="Kalman Gain Equation" src="/images/KalmanGainEquation.png">
+</p>
+
+<p align="center">
+<img style="width:50%" alt="Covariance Update Equation" src="/images/CovarianceUpdateEquation.png">
+</p>
+
+<p align="center">
+<img style="width:50%" alt="Covariance Extrapolation Equation" src="/images/CovarianceExtrapolationEquation.png">
+</p>
+
 Next, we take a measurement, tweak our estimation of the state, and then once again predict the future state.
 
 <p align="center">
