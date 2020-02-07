@@ -8,7 +8,7 @@ StateExtrapolationEquation2
 \hat{\dot{x}}_{n+1, n} = \hat{\dot{x}}_{n, n}
 
 KalmanGainEquation
-K_n =  \frac{p_{n, n-1}}{p_{n, n-1} + r_n}
+K_n = \frac{p_{n, n-1}}{p_{n, n-1} + r_n}
 
 CovarianceUpdateEquation
 p_{n, n} = (1-K_n)p_{n, n-1}
