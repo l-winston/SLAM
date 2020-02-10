@@ -31,23 +31,32 @@ Here are the five Kalman Filter Equations:
 
 <p align="center">
 State Update Equation:
+<br>
 <img style="width:50%" alt="State Update Equation" src="/images/StateUpdateEquation.png">
 </p>
 
 <p align="center">
+State Extrapolation Equations:
+<br>
 <img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation1.png">
 <img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation2.png">
 </p>
 
 <p align="center">
+Kalman Gain Equation:
+<br>
 <img style="width:50%" alt="Kalman Gain Equation" src="/images/KalmanGainEquation.png">
 </p>
 
 <p align="center">
+Covariance Update Equation
+<br>
 <img style="width:50%" alt="Covariance Update Equation" src="/images/CovarianceUpdateEquation.png">
 </p>
 
 <p align="center">
+Covariance Extrapolation Equation
+<br>
 <img style="width:50%" alt="Covariance Extrapolation Equation" src="/images/CovarianceExtrapolationEquation.png">
 </p>
 
