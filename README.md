@@ -26,7 +26,11 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 <img style="width:50%" alt="Notation" src="/images/Notation.png">
 </p>
 
+
+Here are the five Kalman Filter Equations:
+
 <p align="center">
+State Update Equation:
 <img style="width:50%" alt="State Update Equation" src="/images/StateUpdateEquation.png">
 </p>
 
