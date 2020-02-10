@@ -31,7 +31,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 </p>
 
 <p align="center">
-<img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation2.png">
+<img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation1.png">
 <img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation2.png">
 </p>
 
