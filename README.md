@@ -27,7 +27,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 </p>
 
 
-Here are the five Kalman Filter Equations:
+<center> <b> The Five Kalman Filter Equations: </b> </center>
 
 <p align="center">
 State Update Equation:
