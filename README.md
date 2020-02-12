@@ -13,7 +13,6 @@ Then, in the measurement step, we correct our prediction by using data from our 
 
 **Exteroceptive sensors** collect data about the robot's environment, like distances to objects, light, sound, etc. For this project, I'll be simulating a collection of distance sensors by casting rays out from a "sensor" and recording the distances they travel.
 
-
 ## Kalman Filters
 
 Kalman Filters are a way for us to estimate the (unknown) actual state of an system (our agent's position and orientation) through the collection of noisy data.
@@ -27,7 +26,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 </p>
 
 
-<center> <b> The Five Kalman Filter Equations: </b> </center>
+<p align="center"> <b> The Five Kalman Filter Equations: </b> </p>
 
 <p align="center">
 State Update Equation:
