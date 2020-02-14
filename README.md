@@ -35,6 +35,10 @@ State Update Equation:
 </p>
 
 <p align="center">
+State Update Equation Description
+</p>
+
+<p align="center">
 State Extrapolation Equations:
 <br>
 <img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation1.png">
