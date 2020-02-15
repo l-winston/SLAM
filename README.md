@@ -40,10 +40,10 @@ State Update Equation Description
 State Extrapolation Equations:
 <br>
 <img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation1.png">
-<br>
-State Extrapolation Equation 1 Description
 
 <img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation2.png">
+<br>
+State Extrapolation Equation 1 Description
 <br>
 State Extrapolation Equation 2 Description
 </p>
@@ -60,6 +60,8 @@ Kalman Gain Equation Description
 Covariance Update Equation
 <br>
 <img style="width:50%" alt="Covariance Update Equation" src="/images/CovarianceUpdateEquation.png">
+<br>
+Covariance Update Equation Description
 </p>
 
 <p align="center">
