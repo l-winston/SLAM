@@ -52,6 +52,8 @@ State Extrapolation Equation 2 Description
 Kalman Gain Equation:
 <br>
 <img style="width:50%" alt="Kalman Gain Equation" src="/images/KalmanGainEquation.png">
+<br>
+Kalman Gain Equation Description
 </p>
 
 <p align="center">
