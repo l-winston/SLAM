@@ -32,9 +32,6 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 State Update Equation:
 <br>
 <img style="width:50%" alt="State Update Equation" src="/images/StateUpdateEquation.png">
-</p>
-
-<p align="center">
 State Update Equation Description
 </p>
 
