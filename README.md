@@ -40,7 +40,12 @@ State Update Equation Description
 State Extrapolation Equations:
 <br>
 <img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation1.png">
+<br>
+State Extrapolation Equation 1 Description
+
 <img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation2.png">
+<br>
+State Extrapolation Equation 2 Description
 </p>
 
 <p align="center">
