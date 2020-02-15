@@ -68,6 +68,8 @@ Covariance Update Equation Description
 Covariance Extrapolation Equation
 <br>
 <img style="width:50%" alt="Covariance Extrapolation Equation" src="/images/CovarianceExtrapolationEquation.png">
+<br>
+Covariance Extrapolation Equation  Description
 </p>
 
 Next, we take a measurement, tweak our estimation of the state, and then once again predict the future state.
