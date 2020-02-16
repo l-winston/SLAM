@@ -1,5 +1,5 @@
 <head>
-  <base href="https://raw.githubusercontent.com/l-winston/SLAM/master"/>
+  <base href="https://raw.githubusercontent.com/l-winston/SLAM/master/"/>
 </head>
 
 # SLAM
