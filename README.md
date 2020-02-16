@@ -26,7 +26,7 @@ We can give more weight to data that we know is more accurate by increasing the 
 We take the state of a system and use a set of equations (ex. laws of physics) to extrapolate a predicted future state.
 
 <p align="center">
-<img width=60% alt="Notation" src="/images/Notation.png">
+<img width=60% alt="Notation" src="images/Notation.png">
 </p>
 
 
@@ -35,7 +35,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 <p align="center">
 State Update Equation:
 <br>
-<img style="width:50%" alt="State Update Equation" src="/images/StateUpdateEquation.png">
+<img style="width:50%" alt="State Update Equation" src="images/StateUpdateEquation.png">
 <br>
 State Update Equation Description
 </p>
@@ -43,9 +43,9 @@ State Update Equation Description
 <p align="center">
 State Extrapolation Equations:
 <br>
-<img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation1.png">
+<img style="width:50%" alt="State Extrapolation Equation" src="images/StateExtrapolationEquation1.png">
 
-<img style="width:50%" alt="State Extrapolation Equation" src="/images/StateExtrapolationEquation2.png">
+<img style="width:50%" alt="State Extrapolation Equation" src="images/StateExtrapolationEquation2.png">
 <br>
 State Extrapolation Equation 1 Description
 <br>
@@ -55,7 +55,7 @@ State Extrapolation Equation 2 Description
 <p align="center">
 Kalman Gain Equation:
 <br>
-<img style="width:50%" alt="Kalman Gain Equation" src="/images/KalmanGainEquation.png">
+<img style="width:50%" alt="Kalman Gain Equation" src="images/KalmanGainEquation.png">
 <br>
 Kalman Gain Equation Description
 </p>
@@ -63,7 +63,7 @@ Kalman Gain Equation Description
 <p align="center">
 Covariance Update Equation
 <br>
-<img style="width:50%" alt="Covariance Update Equation" src="/images/CovarianceUpdateEquation.png">
+<img style="width:50%" alt="Covariance Update Equation" src="images/CovarianceUpdateEquation.png">
 <br>
 Covariance Update Equation Description
 </p>
@@ -71,7 +71,7 @@ Covariance Update Equation Description
 <p align="center">
 Covariance Extrapolation Equation
 <br>
-<img style="width:50%" alt="Covariance Extrapolation Equation" src="/images/CovarianceExtrapolationEquation.png">
+<img style="width:50%" alt="Covariance Extrapolation Equation" src="images/CovarianceExtrapolationEquation.png">
 <br>
 Covariance Extrapolation Equation  Description
 </p>
