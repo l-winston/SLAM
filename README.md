@@ -1,7 +1,3 @@
-<head>
-<base href="/SLAM/">
-</head>
-
 # SLAM
 SLAM (Simultaneous Localization And Mapping) is the process of creating a map of an environment while tracking the agent's location within it.
 
@@ -26,7 +22,7 @@ We can give more weight to data that we know is more accurate by increasing the 
 We take the state of a system and use a set of equations (ex. laws of physics) to extrapolate a predicted future state.
 
 <p align="center">
-<img width=60% alt="Notation" src="/images/Notation.png">
+<img width=60% alt="Notation" src="../images/Notation.png">
 </p>
 
 
