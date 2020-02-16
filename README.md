@@ -82,4 +82,4 @@ Next, we take a measurement, tweak our estimation of the state, and then once ag
 1. [How does Autonomous Driving Work? An Intro into SLAM](https://towardsdatascience.com/slam-intro-fd833ef29e4e)
 2. [Simultaneous Localization and Mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping)
 3. [MatLab: Understanding Kalman Filters](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
-4. [https://www.kalmanfilter.net/default.aspx]
+4. [https://www.kalmanfilter.net/default.aspx](https://www.kalmanfilter.net/default.aspx)
