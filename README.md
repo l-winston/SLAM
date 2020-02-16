@@ -21,7 +21,10 @@ We can give more weight to data that we know is more accurate by increasing the 
 
 We take the state of a system and use a set of equations (ex. laws of physics) to extrapolate a predicted future state.
 
-![Image of Notation](/images/Notation.png)
+<p align="center">
+<img width=40% alt="Notation" src="/images/Notation.png">
+</p>
+
 
 <p align="center"> <b> The Five Kalman Filter Equations: </b> </p>
 
@@ -72,11 +75,11 @@ Covariance Extrapolation Equation  Description
 Next, we take a measurement, tweak our estimation of the state, and then once again predict the future state.
 
 <p align="center">
-<img alt="Estimation Algorithm Flowchart [4]" src="https://www.kalmanfilter.net/img/AlphaBeta/ex2_estimationAlgorithm.png">
+<img alt="Estimation Algorithm Flowchart" src="https://www.kalmanfilter.net/img/AlphaBeta/ex2_estimationAlgorithm.png">
 </p>
 
 # Sources & Resources
 1. [How does Autonomous Driving Work? An Intro into SLAM](https://towardsdatascience.com/slam-intro-fd833ef29e4e)
 2. [Simultaneous Localization and Mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping)
 3. [MatLab: Understanding Kalman Filters](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
-4. <https://www.kalmanfilter.net/default.aspx>
+4. https://www.kalmanfilter.net/default.aspx
