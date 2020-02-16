@@ -21,7 +21,7 @@ We can give more weight to data that we know is more accurate by increasing the 
 
 We take the state of a system and use a set of equations (ex. laws of physics) to extrapolate a predicted future state.
 
-![](/images/Notation.png){:height="40%" width="40%"}
+![Image of Notation](/images/Notation.png)
 
 <p align="center"> <b> The Five Kalman Filter Equations: </b> </p>
 
