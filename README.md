@@ -43,9 +43,9 @@ State Update Equation Description
 <p align="center">
 State Extrapolation Equations:
 <br>
-<img width=50% alt="State Extrapolation Equation" src="images/StateExtrapolationEquation1.png">
-
-<img width=50% alt="State Extrapolation Equation" src="images/StateExtrapolationEquation2.png">
+<img width=40% alt="State Extrapolation Equation" src="images/StateExtrapolationEquation1.png">
+<br>
+<img width=30% alt="State Extrapolation Equation" src="images/StateExtrapolationEquation2.png">
 <br>
 State Extrapolation Equation 1 Description
 <br>
