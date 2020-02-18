@@ -29,7 +29,6 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 <img width="75%" alt="Notation" src="images/Notation.png">
 </p>
 
-Hi \\( z = x + y \\).
 
 <p align="center"> <b> The Five Kalman Filter Equations: </b> </p>
 
