@@ -1,9 +1,5 @@
-
-
 <head>
   <base href="https://raw.githubusercontent.com/l-winston/SLAM/master/"/>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
-  </script>
 </head>
 
 # SLAM
