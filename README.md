@@ -29,10 +29,11 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 | -------- | ------- |
 | ![x]     | is the true value |
 | ![z_n]   | is the measurement value of the weight at time _n_ |
-| zebra stripes | are neat      |
+| ![hat{x}_{n, n}] | are neat      |
 
-[x]: https://latex.codecogs.com/png.latex?\dpi{300}&space;x
-[z_n]: https://latex.codecogs.com/png.latex?\dpi{300}&space;z_n
+[x]: https://latex.codecogs.com/png.latex?\dpi{300}\tiny&space;x
+[z_n]: https://latex.codecogs.com/png.latex?\dpi{300}\tiny&space;z_n
+[hat{x}_{n, n}]: https://latex.codecogs.com/png.latex?\dpi{300}\tiny&space;\hat{x}_{n,&space;n}
 
 <p align="center">
 <img width="75%" alt="Notation" src="images/Notation.png">
