@@ -28,10 +28,11 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 | Notation | Meaning |
 | -------- | ------- |
 | ![x]     | is the true value |
-| col 2 is      | centered      |
+| ![z_n]   | is the measurement value of the weight at time _n_ |
 | zebra stripes | are neat      |
 
 [x]: https://latex.codecogs.com/png.latex?\dpi{300}&space;x
+[z_n]: https://latex.codecogs.com/png.latex?\dpi{300}&space;z_n
 
 <p align="center">
 <img width="75%" alt="Notation" src="images/Notation.png">
