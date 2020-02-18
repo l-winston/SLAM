@@ -79,7 +79,7 @@ Covariance Extrapolation Equation  Description
 Next, we take a measurement, tweak our estimation of the state, and then once again predict the future state.
 
 <p align="center">
-<img alt="Estimation Algorithm Flowchart" src="https://www.kalmanfilter.net/img/AlphaBeta/ex2_estimationAlgorithm.png">
+<img width="50% "alt="Estimation Algorithm Flowchart" src="https://www.kalmanfilter.net/img/AlphaBeta/ex2_estimationAlgorithm.png">
 </p>
 
 # Sources & Resources
