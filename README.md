@@ -1,8 +1,5 @@
-<script src="//yihui.org/js/math-code.js"></script>
-<!-- Just one possible MathJax CDN below. You may use others. -->
-<script async
-  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
 <head>
   <base href="https://raw.githubusercontent.com/l-winston/SLAM/master/"/>
@@ -35,7 +32,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 <img width="75%" alt="Notation" src="images/Notation.png">
 </p>
 
-Hi `$z = x + y$`.
+Hi \\( z = x + y \\).
 
 <p align="center"> <b> The Five Kalman Filter Equations: </b> </p>
 
