@@ -25,10 +25,17 @@ We can give more weight to data that we know is more accurate by increasing the 
 
 We take the state of a system and use a set of equations (ex. laws of physics) to extrapolate a predicted future state.
 
+| Notation | Meaning |
+| -------- | ------- |
+| ![x]     | is the true value |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
+
+[x]: https://latex.codecogs.com/png.latex?\dpi{300}&space;x
+
 <p align="center">
 <img width="75%" alt="Notation" src="images/Notation.png">
 </p>
-
 
 <p align="center"> <b> The Five Kalman Filter Equations: </b> </p>
 
