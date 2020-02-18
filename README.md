@@ -35,7 +35,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 <p align="center">
 State Update Equation:
 <br>
-<img style="width:50%" alt="State Update Equation" src="images/StateUpdateEquation.png">
+<img width=50% alt="State Update Equation" src="images/StateUpdateEquation.png">
 <br>
 State Update Equation Description
 </p>
@@ -43,9 +43,9 @@ State Update Equation Description
 <p align="center">
 State Extrapolation Equations:
 <br>
-<img style="width:40%" alt="State Extrapolation Equation" src="images/StateExtrapolationEquation1.png">
+<img width=40% alt="State Extrapolation Equation" src="images/StateExtrapolationEquation1.png">
 
-<img style="width:30%" alt="State Extrapolation Equation" src="images/StateExtrapolationEquation2.png">
+<img width=30% alt="State Extrapolation Equation" src="images/StateExtrapolationEquation2.png">
 <br>
 State Extrapolation Equation 1 Description
 <br>
