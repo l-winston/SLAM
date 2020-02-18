@@ -28,9 +28,10 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 | Notation | Meaning |
 | -------- | ------- |
 | ![x]     | is the true value |
-| ![z_n]   | is the measurement value of the weight at time _n_ |
-| ![hat{x}_{n, n}] | are neat      |
+| ![z_n]   | is the measurement value of the weight at time ![n] |
+| ![hat{x}_{n, n}] | is the estimate of ![x] at time ![n]      |
 
+[n]: https://latex.codecogs.com/png.latex?\dpi{300}\tiny&space;n
 [x]: https://latex.codecogs.com/png.latex?\dpi{300}\tiny&space;x
 [z_n]: https://latex.codecogs.com/png.latex?\dpi{300}\tiny&space;z_n
 [hat{x}_{n, n}]: https://latex.codecogs.com/png.latex?\dpi{300}\tiny&space;\hat{x}_{n,&space;n}
