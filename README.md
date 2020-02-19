@@ -52,7 +52,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 State Update Equation:
 <br>
 
-<img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{300}&space;\tiny&space;\hat{x}_{n,&space;n}&space;=&space;\hat{x}_{n,&space;n-1}&space;&plus;&space;K_n&space;(z_n&space;-&space;\hat{x}_{n,&space;n-1})"/>
+<img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{300}&space;\huge&space;\hat{x}_{n,&space;n}&space;=&space;\hat{x}_{n,&space;n-1}&space;&plus;&space;K_n&space;(z_n&space;-&space;\hat{x}_{n,&space;n-1})"/>
 
 <br>
 State Update Equation Description
@@ -72,6 +72,8 @@ State Extrapolation Equation 1 Description
 <br>
 State Extrapolation Equation 2 Description
 </p>
+
+
 
 <p align="center">
 Kalman Gain Equation:
