@@ -46,17 +46,21 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 
 <p align="center"> <b> The Five Kalman Filter Equations: </b> </p>
 
+
+
 <p align="center">
 State Update Equation:
 <br>
 
-![StateUpdateEquation]
+<img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{300}&space;\tiny&space;\hat{x}_{n,&space;n}&space;=&space;\hat{x}_{n,&space;n-1}&space;&plus;&space;K_n&space;(z_n&space;-&space;\hat{x}_{n,&space;n-1})"/>
 
 <br>
 State Update Equation Description
 </p>
 
-[StateUpdateEquation]: https://latex.codecogs.com/gif.latex?\inline&space;\dpi{300}&space;\tiny&space;\hat{x}_{n,&space;n}&space;=&space;\hat{x}_{n,&space;n-1}&space;&plus;&space;K_n&space;(z_n&space;-&space;\hat{x}_{n,&space;n-1})
+
+
+
 <p align="center">
 State Extrapolation Equations:
 <br>
