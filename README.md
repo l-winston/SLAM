@@ -64,9 +64,9 @@ State Update Equation Description
 <p align="center">
 State Extrapolation Equations:
 <br>
-<img height="30" alt="State Extrapolation Equation" src="images/StateExtrapolationEquation1.png">
+<img src="images/StateExtrapolationEquation1.png">
 <br>
-<img height="30" alt="State Extrapolation Equation" src="images/StateExtrapolationEquation2.png">
+<img src="images/StateExtrapolationEquation2.png">
 <br>
 State Extrapolation Equation 1 Description
 <br>
@@ -78,7 +78,7 @@ State Extrapolation Equation 2 Description
 <p align="center">
 Kalman Gain Equation:
 <br>
-<img height="60" alt="Kalman Gain Equation" src="images/KalmanGainEquation.png">
+<img src="images/KalmanGainEquation.png">
 <br>
 Kalman Gain Equation Description
 </p>
@@ -86,7 +86,7 @@ Kalman Gain Equation Description
 <p align="center">
 Covariance Update Equation
 <br>
-<img height="30" alt="Covariance Update Equation" src="images/CovarianceUpdateEquation.png">
+<img src="images/CovarianceUpdateEquation.png">
 <br>
 Covariance Update Equation Description
 </p>
@@ -94,7 +94,7 @@ Covariance Update Equation Description
 <p align="center">
 Covariance Extrapolation Equation
 <br>
-<img height="30" alt="Covariance Extrapolation Equation" src="images/CovarianceExtrapolationEquation.png">
+<img src="images/CovarianceExtrapolationEquation.png">
 <br>
 Covariance Extrapolation Equation  Description
 </p>
