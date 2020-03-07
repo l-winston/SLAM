@@ -36,7 +36,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 
 [n-1]: https://latex.codecogs.com/svg.latex?\inline&space;\dpi{300}\large&space;n-1
 [n+1]: https://latex.codecogs.com/svg.latex?\inline&space;\dpi{300}\large&space;n+1
-[n]: https://latex.codecogs.com/svg.latex?\inline&space;\large&space;n
+[n]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;n
 [x]: https://latex.codecogs.com/svg.latex?\inline&space;\dpi{300}\large&space;x
 [z_n]: https://latex.codecogs.com/svg.latex?\inline&space;\dpi{300}\large&space;z_n
 [z_n-1]: https://latex.codecogs.com/svg.latex?\inline&space;\dpi{300}\large&space;z_n-1
