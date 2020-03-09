@@ -33,9 +33,8 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 | ![hat{x}_{n, n - 1}]  | is the previous estimate of ![x] that was made at time ![n-1] (the estimate was made after taking the measurement ![z_n-1])   |
 | ![hat{x}_{n + 1, n}]  | is the estimate of the future state (![n+1]) of ![x]. The estimate is made at the time ![n], right after the measurement ![z_n]. In other words, ![x_{n, n+1}] is a predicted state  |
 
-$$
-\frac{n!}{k!(n-k)!} = {n \choose k}
-$$
+It is well known that if $ax^2 + bx + c = 0$, then $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
+
 
 [n-1]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;n-1
 [n+1]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;n+1
