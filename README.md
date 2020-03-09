@@ -33,6 +33,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 | ![hat{x}_{n, n - 1}]  | is the previous estimate of ![x] that was made at time ![n-1] (the estimate was made after taking the measurement ![z_n-1])   |
 | ![hat{x}_{n + 1, n}]  | is the estimate of the future state (![n+1]) of ![x]. The estimate is made at the time ![n], right after the measurement ![z_n]. In other words, ![x_{n, n+1}] is a predicted state  |
 
+<p align="center"><img src="https://rawgit.com/l-winston/SLAM/master/svgs/32737e0a8d5a4cf32ba3ab1b74902ab7.svg?invert_in_darkmode" align=middle width=127.9847844pt height=39.452455349999994pt/></p>
 
 [n-1]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;n-1
 [n+1]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;n+1
