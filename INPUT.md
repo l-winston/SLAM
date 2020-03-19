@@ -46,20 +46,17 @@ $$
 
 
 
-
-
 <p align="center">
 State Extrapolation Equations:
-<br>
-<img src="images/StateExtrapolationEquation1.png">
-<br>
-<img src="images/StateExtrapolationEquation2.png">
-<br>
-State Extrapolation Equation 1 Description
-<br>s
-State Extrapolation Equation 2 Description
 </p>
 
+$$
+\hat{x}_{n+1, n} = \hat{x}_{n, n} + \Delta t \hat{ \dot{x} }_{n, n}
+$$
+
+$$
+\hat{\dot{x}}_{n+1, n} = \hat{\dot{x}}_{n, n}
+$$
 
 
 <p align="center">
@@ -69,6 +66,10 @@ Kalman Gain Equation:
 <br>
 Kalman Gain Equation Description
 </p>
+
+$$
+K_n = \frac{p_{n, n-1}}{p_{n, n-1} + r_n}
+$$
 
 <p align="center">
 Covariance Update Equation
