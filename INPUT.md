@@ -1,9 +1,4 @@
 
-
-<head>
-  <base href="https://cdn.jsdelivr.net/gh/l-winston/SLAM@master/" target="_blank">
-</head>
-
 $$
 \frac{n!}{k!(n-k)!} = {n \choose k}
 $$
