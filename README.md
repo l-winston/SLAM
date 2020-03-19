@@ -23,9 +23,9 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 
 | Notation | Meaning |
 | -------- | ------- |
-| <p align="center"><img alt="$$x$$" src="https://cdn.jsdelivr.net/gh/l-winston/SLAM@master/svgs/7073627e9999e583f5539cb4560a14d7.svg" align="middle" width="9.3949878pt" height="7.0776222pt"/></p>     | is the true value |
-| ![z_n]   | is the measurement value of the weight at time ![n] |
-| ![hat{x}_{n, n}] | is the estimate of ![x] at time ![n] (the estimate is made after taking the measurement ![z_n])|
+| <img alt="$x$" src="https://cdn.jsdelivr.net/gh/l-winston/SLAM@master/svgs/332cc365a4987aacce0ead01b8bdcc0b.svg?324ddb59c7" align="middle" width="9.39498779999999pt" height="14.15524440000002pt"/>     | is the true value |
+| <img alt="$z_n$" src="https://cdn.jsdelivr.net/gh/l-winston/SLAM@master/svgs/a5877527319d66afa46d823ccc099bf4.svg?2f8eb0bca5" align="middle" width="15.77067689999999pt" height="14.15524440000002pt"/>   | is the measurement value of the weight at time <img alt="$n$" src="https://cdn.jsdelivr.net/gh/l-winston/SLAM@master/svgs/55a049b8f161ae7cfeb0197d75aff967.svg?a3a729ea17" align="middle" width="9.86687624999999pt" height="14.15524440000002pt"/> |
+| <img alt="$\hat{x}_{n, n}$" src="https://cdn.jsdelivr.net/gh/l-winston/SLAM@master/svgs/26bae1845d0ce0ef4bfa9641516d562a.svg?40a6ec868" align="middle" width="29.55116669999999pt" height="22.831056599999986pt"/> | is the estimate of <img alt="$x$" src="https://cdn.jsdelivr.net/gh/l-winston/SLAM@master/svgs/332cc365a4987aacce0ead01b8bdcc0b.svg?51677eebf5" align="middle" width="9.39498779999999pt" height="14.15524440000002pt"/> at time <img alt="$n$" src="https://cdn.jsdelivr.net/gh/l-winston/SLAM@master/svgs/55a049b8f161ae7cfeb0197d75aff967.svg?b467e8572e" align="middle" width="9.86687624999999pt" height="14.15524440000002pt"/> (the estimate is made after taking the measurement <img alt="$z_n$" src="https://cdn.jsdelivr.net/gh/l-winston/SLAM@master/svgs/a5877527319d66afa46d823ccc099bf4.svg?d2c9f2a99" align="middle" width="15.77067689999999pt" height="14.15524440000002pt"/>)|
 | ![hat{x}_{n, n - 1}]  | is the previous estimate of ![x] that was made at time ![n-1] (the estimate was made after taking the measurement ![z_n-1])   |
 | ![hat{x}_{n + 1, n}]  | is the estimate of the future state (![n+1]) of ![x]. The estimate is made at the time ![n], right after the measurement ![z_n]. In other words, ![x_{n, n+1}] is a predicted state  |
 
