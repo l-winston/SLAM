@@ -1,4 +1,4 @@
-<base href="https://raw.githubusercontent.com/l-winston/SLAM/master"/>
+<base href="https://raw.githubusercontent.com/l-winston/SLAM/master/">
 
 $$
 \frac{n!}{k!(n-k)!} = {n \choose k}

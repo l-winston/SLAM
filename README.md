@@ -1,9 +1,9 @@
-<base href="https://raw.githubusercontent.com/l-winston/SLAM/master"/>
+<base href="https://raw.githubusercontent.com/l-winston/SLAM/master/">
 
-<p align="center"><img src="svgs/32737e0a8d5a4cf32ba3ab1b74902ab7.svg?ccb6a642ba&invert_in_darkmode" align=middle width=127.9847844pt height=39.452455349999994pt/></p>
+<p align="center"><img src="svgs/32737e0a8d5a4cf32ba3ab1b74902ab7.svg?5078acf746&invert_in_darkmode" align=middle width=127.9847844pt height=39.452455349999994pt/></p>
 
 
-It is well known that if <img src="svgs/15b9e78f3a7cb11ea59b95c9553fb928.svg?552ecd14d0&invert_in_darkmode" align=middle width=119.34141284999998pt height=26.76175259999998pt/>, then <img src="svgs/2b1f70f6a49aea806b0a5f021e843447.svg?4fd87e33fd&invert_in_darkmode" align=middle width=112.44128444999998pt height=33.20539200000001pt/>.
+It is well known that if <img src="svgs/15b9e78f3a7cb11ea59b95c9553fb928.svg?d1e9d9c3a8&invert_in_darkmode" align=middle width=119.34141284999998pt height=26.76175259999998pt/>, then <img src="svgs/2b1f70f6a49aea806b0a5f021e843447.svg?d3c33c0acb&invert_in_darkmode" align=middle width=112.44128444999998pt height=33.20539200000001pt/>.
 
 # SLAM
 SLAM (Simultaneous Localization And Mapping) is the process of creating a map of an environment while tracking the agent's location within it.
