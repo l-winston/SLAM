@@ -36,14 +36,14 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 <p align="center">
 State Update Equation:
 <br>
+State Update Equation Description
+</p>
 
 $$
 \hat{x}_{n, n} = \hat{x}_{n, n-1} + K_n (z_n - \hat{x}_{n, n-1})
 $$
 
-<br>
-State Update Equation Description
-</p>
+
 
 
 
