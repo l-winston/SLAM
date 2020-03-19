@@ -1,3 +1,5 @@
+<base href="https://github.com/l-winston/SLAM"/>
+
 $$
 \frac{n!}{k!(n-k)!} = {n \choose k}
 $$
