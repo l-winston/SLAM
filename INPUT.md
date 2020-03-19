@@ -23,11 +23,11 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 
 | Notation | Meaning |
 | -------- | ------- |
-| **$x$**     | is the true value |
+| $x$     | is the true value |
 | $z_n$   | is the measurement value of the weight at time $n$ |
 | $\hat{x}_{n, n}$ | is the estimate of $x$ at time $n$ (the estimate is made after taking the measurement $z_n$)|
-| ![hat{x}_{n, n - 1}]  | is the previous estimate of ![x] that was made at time ![n-1] (the estimate was made after taking the measurement ![z_n-1])   |
-| ![hat{x}_{n + 1, n}]  | is the estimate of the future state (![n+1]) of ![x]. The estimate is made at the time ![n], right after the measurement ![z_n]. In other words, ![x_{n, n+1}] is a predicted state  |
+| $\hat{x}_{n, n-1}$  | is the previous estimate of $x$ that was made at time $n-1$ (the estimate was made after taking the measurement $z_{n-1}$)   |
+| $\hat{x}_{n+1, n}$  | is the estimate of the future state ($n+1$) of $x$. The estimate is made at the time $n$, right after the measurement $z_n$. In other words, $x_{n, n+1} is a predicted state  |
 
 
 
