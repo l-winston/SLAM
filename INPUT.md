@@ -33,22 +33,14 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 
 
 
-<p align="center">
-State Update Equation:
-<br>
-State Update Equation Description
-</p>
+<p align="center"> State Update Equation: </p>
 
 $$
 \hat{x}_{n, n} = \hat{x}_{n, n-1} + K_n (z_n - \hat{x}_{n, n-1})
 $$
 
 
-
-
-<p align="center">
-State Extrapolation Equations:
-</p>
+<p align="center"> State Extrapolation Equations: </p>
 
 $$
 \hat{x}_{n+1, n} = \hat{x}_{n, n} + \Delta t \hat{ \dot{x} }_{n, n}
@@ -59,33 +51,23 @@ $$
 $$
 
 
-<p align="center">
-Kalman Gain Equation:
-<br>
-<img src="images/KalmanGainEquation.png">
-<br>
-Kalman Gain Equation Description
-</p>
+<p align="center"> Kalman Gain Equation: </p>
 
 $$
 K_n = \frac{p_{n, n-1}}{p_{n, n-1} + r_n}
 $$
 
-<p align="center">
-Covariance Update Equation
-<br>
-<img src="images/CovarianceUpdateEquation.png">
-<br>
-Covariance Update Equation Description
-</p>
+<p align="center"> Covariance Update Equation </p>
 
-<p align="center">
-Covariance Extrapolation Equation
-<br>
-<img src="images/CovarianceExtrapolationEquation.png">
-<br>
-Covariance Extrapolation Equation  Description
-</p>
+$$
+p_{n, n} = (1-K_n)p_{n, n-1}
+$$
+
+<p align="center"> Covariance Extrapolation Equation </p>
+
+$$
+p_{n+1, n} = p_{n, n}
+$$
 
 Next, we take a measurement, tweak our estimation of the state, and then once again predict the future state.
 
