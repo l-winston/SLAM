@@ -1,11 +1,3 @@
-
-$$
-\frac{n!}{k!(n-k)!} = {n \choose k}
-$$
-
-
-It is well known that if $ax^2 + bx + c = 0$, then $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
-
 # SLAM
 SLAM (Simultaneous Localization And Mapping) is the process of creating a map of an environment while tracking the agent's location within it.
 
@@ -31,7 +23,7 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 
 | Notation | Meaning |
 | -------- | ------- |
-| ![x]     | is the true value |
+| $x$     | is the true value |
 | ![z_n]   | is the measurement value of the weight at time ![n] |
 | ![hat{x}_{n, n}] | is the estimate of ![x] at time ![n] (the estimate is made after taking the measurement ![z_n])|
 | ![hat{x}_{n, n - 1}]  | is the previous estimate of ![x] that was made at time ![n-1] (the estimate was made after taking the measurement ![z_n-1])   |
