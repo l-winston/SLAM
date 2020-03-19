@@ -29,19 +29,6 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 | $\hat{x}_{n, n-1}$  | is the previous estimate of $x$ that was made at time $n-1$ (the estimate was made after taking the measurement $z_{n-1}$)   |
 | $\hat{x}_{n+1, n}$  | is the estimate of the future state ($n+1$) of $x$. The estimate is made at the time $n$, right after the measurement $z_n$. In other words, $x_{n, n+1}$ is a predicted state  |
 
-
-
-[n-1]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;n-1
-[n+1]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;n+1
-[n]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;n
-[x]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;x_
-[z_n]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z_n
-[z_n-1]: https://latex.codecogs.com/svg.latex?\inline&space;\LARGE&space;z_n-1
-[hat{x}_{n, n}]: https://latex.codecogs.com/svg.latex?\inline&space;\dpi{200}\large&space;\hat{x}_{n,&space;n}
-[hat{x}_{n, n - 1}]: https://latex.codecogs.com/svg.latex?\inline&space;\dpi{300}\large&space;\hat{x}_{n,&space;n-1}
-[hat{x}_{n + 1, n}]: https://latex.codecogs.com/svg.latex?\inline&space;\dpi{300}\large&space;\hat{x}_{n+1,&space;n}
-[x_{n, n+1}]: https://latex.codecogs.com/svg.latex?\inline&space;\dpi{300}\large&space;x_{n,&space;n+1}
-
 <p align="center"> <b> The Five Kalman Filter Equations: </b> </p>
 
 
@@ -50,7 +37,9 @@ We take the state of a system and use a set of equations (ex. laws of physics) t
 State Update Equation:
 <br>
 
-<img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{300}&space;\huge&space;\hat{x}_{n,&space;n}&space;=&space;\hat{x}_{n,&space;n-1}&space;&plus;&space;K_n&space;(z_n&space;-&space;\hat{x}_{n,&space;n-1})"/>
+$$
+\hat{x}_{n, n} = \hat{x}_{n, n-1} + K_n (z_n - \hat{x}_{n, n-1})
+$$
 
 <br>
 State Update Equation Description
